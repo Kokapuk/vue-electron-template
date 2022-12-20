@@ -1,0 +1,18 @@
+@import './base.css';
+
+#drag-area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 32px;
+  width: 100%;
+  background-color: transparent;
+  -webkit-app-region: drag;
+}
+
+#app {
+  padding: 25px 50px;
+  margin-top: 30px;
+  max-height: calc(100vh - 30px);
+  overflow-y: auto;
+}
